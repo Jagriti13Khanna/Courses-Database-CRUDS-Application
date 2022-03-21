@@ -1,0 +1,288 @@
+
+/* body {
+    max-width: 80%;
+    margin: 0 auto;
+} */
+
+header {
+    background-color: #093F93;
+    color: white;
+    font-weight: bold;
+    height: 8rem;
+    align-items: center;
+}
+
+nav {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+}
+
+a {    
+    padding: 1.25rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background: #00A0DF;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color:#093F93;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+button {
+    margin-top: 0.5rem;
+    color: white;
+    background: #093F93;
+    border: solid 1 px #093F93;
+    padding: 0.5rem;
+}
+
+button:hover {
+    color: white;
+    background: #00A0DF;
+}
+
+.desc-list {
+    background: #00A0DF;
+    margin-top: 1rem;
+}
+
+dl {
+    display: inline-block;
+    padding: 2rem 4rem;
+}
+
+dt {
+    color: white;
+    font-size: 1.4rem;
+}
+
+dd {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.content {
+    margin: 4rem 1rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+ul.home-list li {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 30rem;
+    height: 25rem;
+    float: left;
+    margin-right: 2rem;
+}
+
+ul.home-list {
+    margin-right: 5rem;
+    list-style: disc;
+}
+
+.mt-1 {
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #093F93;
+    color: white;
+    font-weight: bold;
+    height: 6rem;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 1.5rem 0rem;
+    text-align: center;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list div {
+    margin: 2rem 0rem;
+    border: 2.5px solid #093F93;
+}
+
+.list div h4 {
+    font-size: 1.6rem;
+    background: #00A0DF;
+    color: white;
+    padding: 0.5rem;
+}
+
+.list div p {
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+}
+
+form.search-form,
+form.login,
+form.insert {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem;
+}
+
+.flex-search {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.flex-search label {
+    width: 40%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.flex-search input[type="text"] {
+    width: 40%;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+.search-form input[type="submit"],
+.login input[type="submit"],
+.insert input[type="submit"] {
+    width: 20%;
+    font-size: 1.4rem;
+    background: #093F93;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem;
+}
+
+.login-noflex {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-noflex div label,
+.insert div div label {
+    width: 40%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.login-noflex div input[type="text"],
+.login-noflex div input[type="password"],
+.insert div div input[type="text"],
+.insert div div textarea{
+    width: 40%;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+.no-flex {
+    display: block;
+}
+
+.iblock {
+    margin-bottom: 2rem;
+}
+
+.edit-flex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.delete-flex {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.edit > ul {
+    margin-top: 2rem;
+}
+
+a.edit-links,
+a.delete-links {
+    color: black;
+    font-size: 1.2rem;
+}
+
+a:hover.edit-links,
+a:hover.delete-links {
+    color: #093F93;
+    text-decoration: underline;
+    background: none;
+}
+
+.edit h3 {
+    text-align: center;
+}
+.edit-flex .edit {
+    width: 45%;
+}
+
+.edit-flex .edit-form {
+    width: 45%;
+    margin: 5rem 0rem 5rem 5rem;
+}
+
+.edit-form .iblock input {
+    width: 80%;
+}
+
+
+.logout a  {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.logout a:hover {
+    color: #093F93;
+    text-decoration: underline;
+    background: none;
+}
+
+p.msg {
+    background: rgba(255, 0, 0, 0.164);
+    color: red;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
